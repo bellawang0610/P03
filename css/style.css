@@ -4,7 +4,7 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-section {
+.white_border {
   padding: 3em 6em 4em 6em;
 }
 
