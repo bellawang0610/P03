@@ -45,6 +45,8 @@ nav {
   color: grey;
   margin: 0em 1em 0em 0em;
   overflow: hidden;
+  justify-content: space-between;
+  margin: 0em 1em 0em 1em;
 }
 
 .navie:hover {
@@ -58,14 +60,14 @@ nav {
 }
 
 .case_studies {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   text-decoration: none;
   font-style: normal;
   font-weight: 800;
   font-size: 3em;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 0.002em;
+  -webkit-text-stroke-width: 0.02em;
   -webkit-text-stroke-color: black;
   transition: .3s ease-in-out;
   text-transform: uppercase;
@@ -74,12 +76,19 @@ nav {
 
 .case_studies:hover {
   color: white;
-  -webkit-text-fill-color: black;
+  -webkit-text-stroke-color: #FFB800;
+  -webkit-text-fill-color: #FFB800;
   cursor: crosshair;
+  border-bottom: 1px solid #FFB800;
 }
 
 .case_sup {
   font-size: .6em;
+}
+
+.case_des {
+  font-size: .9em;
+  color: #FFB800;
 }
 
 .image-link img {
