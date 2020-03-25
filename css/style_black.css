@@ -1,6 +1,6 @@
 body {
-  background-color: #121212;
-  color: white;
+  background-color: #FBFBFB;
+  color: black;
   font-family: 'Inter', sans-serif;
 }
 
@@ -40,6 +40,7 @@ nav {
 }
 
 .navie {
+  font-size: .8em;
   text-decoration: none;
   color: grey;
   margin: 0em 1em 0em 0em;
@@ -48,8 +49,8 @@ nav {
 
 .navie:hover {
   text-decoration: none;
-  color: white;
-  border-bottom: 1px solid white;
+  color: black;
+  border-bottom: 1px solid black;
 }
 
 .case_class {
@@ -65,15 +66,15 @@ nav {
   color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 0.002em;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: black;
   transition: .3s ease-in-out;
   text-transform: uppercase;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
 .case_studies:hover {
   color: white;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: black;
   cursor: crosshair;
 }
 
