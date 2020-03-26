@@ -1,16 +1,25 @@
 @media only screen and (max-width:680px) {
   .white_border {
-    padding: 1em 1.2em 1em 1.2em;
+    padding: 1em 1.2em 3em 1.2em;
+  }
+  .intro {
+    padding-top: 1em;
+    margin-bottom: 4em;
+  }
+  nav {
+    justify-content: center;
+    text-align: center;
+    position: relative;
   }
   .half_line {
     width: 100%;
   }
   .bio {
-    margin-top: 1em;
+    margin-top: 2.2em;
     max-width: 700px;
     font-size: 1.8em;
   }
-  #bio_des {
-    padding-bottom: 3em;
+  .contact_link h2 {
+    line-height: 120%;
   }
 }
