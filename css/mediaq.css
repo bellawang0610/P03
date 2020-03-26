@@ -1,0 +1,16 @@
+@media only screen and (max-width:680px) {
+  .white_border {
+    padding: 1em 1.2em 1em 1.2em;
+  }
+  .half_line {
+    width: 100%;
+  }
+  .bio {
+    margin-top: 1em;
+    max-width: 700px;
+    font-size: 1.8em;
+  }
+  #bio_des {
+    padding-bottom: 3em;
+  }
+}
