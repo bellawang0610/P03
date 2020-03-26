@@ -142,8 +142,9 @@ nav {
 /* about page */
 
 .bio {
-  margin-top: 3.5em;
+  margin-top: 3.8em;
   max-width: 700px;
+  line-height: 150%;
 }
 
 #bio_des{
@@ -155,6 +156,13 @@ nav {
 
 .half_line {
   width: 400px;
+}
+
+/* contact page */
+
+.contact_title {
+  margin-top: 5em;
+  max-width: 700px;
 }
 
 .contact_link h2 {
@@ -202,7 +210,7 @@ nav {
 
 h1 {
   font-size: 2.2em;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 150%;
 }
 
