@@ -13,6 +13,8 @@ hr {
   margin: 1em 0em 1em 0em;
 }
 
+/* home page intro */
+
 .head {
   font-size: 2em;
   font-weight: 500;
@@ -22,6 +24,8 @@ hr {
 .intro {
   margin-bottom: 6em;
 }
+
+/* in-text link */
 
 .text-link {
   text-decoration: none;
@@ -33,33 +37,46 @@ hr {
   border-bottom: 1px solid #FFB800;
 }
 
+/* navigation */
+
 nav {
   justify-content: flex-end;
   text-align: right;
-  display: flex;
+  position: sticky;
 }
 
 .navie {
   font-size: .8em;
   text-decoration: none;
   color: grey;
-  margin: 0em 1em 0em 0em;
+  margin: 0em 1em 0em 1em;
   overflow: hidden;
   justify-content: space-between;
-  margin: 0em 1em 0em 1em;
 }
 
 .navie:hover {
   text-decoration: none;
-  color: black;
-  border-bottom: 1px solid black;
+  color: #FFB800;
+  border-bottom: 1px solid #FFB800;
 }
+
+.navie:focus {
+  text-decoration: none;
+  color: #FFB800;
+  border-bottom: 1px solid #FFB800;
+}
+
+/* home page case studies link */
 
 .case_class {
   margin: 2em 0em 0em 0em;
 }
 
-.case_studies {
+.case_sup {
+  font-size: .6em;
+}
+
+.cases a {
   font-family: 'Helvetica Neue', sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -74,22 +91,46 @@ nav {
   border-bottom: 1px solid black;
 }
 
-.case_studies:hover {
+.case_studies1:hover {
   color: white;
-  -webkit-text-stroke-color: #FFB800;
-  -webkit-text-fill-color: #FFB800;
+  -webkit-text-stroke-color: #ff1900;
+  -webkit-text-fill-color: #ff1900;
   cursor: crosshair;
-  border-bottom: 1px solid #FFB800;
+  border-bottom: 1px solid #ff1900;
 }
 
-.case_sup {
-  font-size: .6em;
-}
-
-.case_des {
+.case_des1 {
   font-size: .9em;
-  color: #FFB800;
+  color: #ff1900;
 }
+
+.case_studies2:hover {
+  color: white;
+  -webkit-text-stroke-color: #ffb300;
+  -webkit-text-fill-color: #ffb300;
+  cursor: crosshair;
+  border-bottom: 1px solid #ffb300;
+}
+
+.case_des2 {
+  font-size: .9em;
+  color: #ffb300;
+}
+
+.case_studies3:hover {
+  color: white;
+  -webkit-text-stroke-color: #0419d4;
+  -webkit-text-fill-color: #0419d4;
+  cursor: crosshair;
+  border-bottom: 1px solid #0419d4;
+}
+
+.case_des3 {
+  font-size: .9em;
+  color: #0419d4;
+}
+
+/* image as link */
 
 .image-link img {
   width: 60%;
@@ -99,6 +140,8 @@ nav {
 .image-link img:hover {
   opacity: 40%;
 }
+
+/* basic heading elements */
 
 h1 {
   font-size: 2.3em;
