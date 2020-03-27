@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #FBFBFB;
   color: black;
@@ -5,7 +9,7 @@ body {
 }
 
 .white_border {
-  padding: 3em 6em 4em 6em;
+  padding: 3em 6em 3em 6em;
 }
 
 hr {
@@ -22,19 +26,7 @@ hr {
 }
 
 .intro {
-  margin-bottom: 6em;
-}
-
-/* in-text link */
-
-.text-link {
-  text-decoration: none;
-  color: #FFB800;
-  font-weight: 600;
-}
-
-.text-link:hover {
-  border-bottom: 1px solid #FFB800;
+  margin-bottom: 1.5em;
 }
 
 /* navigation */
@@ -74,6 +66,11 @@ nav {
 
 .case_sup {
   font-size: .6em;
+}
+
+.cases {
+  float: right;
+  padding-bottom: 5em;
 }
 
 .cases a {
@@ -128,18 +125,7 @@ nav {
   color: #0419d4;
 }
 
-/* image as link */
-
-.image-link img {
-  width: 60%;
-  transition: .3s ease-in-out;
-}
-
-.image-link img:hover {
-  opacity: 40%;
-}
-
-/* about page */
+/* about */
 
 .bio {
   margin-top: 3.5em;
@@ -158,7 +144,11 @@ nav {
   width: 400px;
 }
 
-/* contact page */
+/* contact */
+
+.contact_page {
+  padding: 5em 0em 13em 0em;
+}
 
 .contact_title {
   margin-top: 5em;
@@ -206,6 +196,29 @@ nav {
   border-bottom: 1px solid #0419d4;
 }
 
+/* image as link */
+
+.image-link img {
+  width: 60%;
+  transition: .3s ease-in-out;
+}
+
+.image-link img:hover {
+  opacity: 40%;
+}
+
+/* in-text link */
+
+.text-link {
+  text-decoration: none;
+  color: #FFB800;
+  font-weight: 600;
+}
+
+.text-link:hover {
+  border-bottom: 1px solid #FFB800;
+}
+
 /* basic heading elements */
 
 h1 {
@@ -245,4 +258,8 @@ li {
 
 sup {
   margin-left: .3em;
+}
+
+.clear {
+  clear: right;
 }
