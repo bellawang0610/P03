@@ -9,7 +9,7 @@ body {
 }
 
 .white_border {
-  padding: 3em 6em 3em 6em;
+  padding: 3em 6em 5.7em 6em;
 }
 
 hr {
@@ -41,15 +41,16 @@ nav {
   font-size: .8em;
   text-decoration: none;
   color: grey;
-  margin: 0em 1em 0em 1em;
+  margin: 3px 3px 3px 3px;
   overflow: hidden;
   justify-content: space-between;
+  padding: 3px 10px 3px 10px;
 }
 
 .navie:hover {
   text-decoration: none;
-  color: #FFB800;
-  border-bottom: 1px solid #FFB800;
+  background-color: #FFB800;
+  color: white;
 }
 
 .navie:focus {
@@ -147,7 +148,7 @@ nav {
 /* contact */
 
 .contact_page {
-  padding: 5em 0em 13em 0em;
+  padding: 5em 0em 7.8em 0em;
 }
 
 .contact_title {
@@ -194,6 +195,23 @@ nav {
   -webkit-text-fill-color: #0419d4;
   cursor: crosshair;
   border-bottom: 1px solid #0419d4;
+}
+
+.btn {
+  font-size: .9em;
+  font-weight: 400;
+  background-color: transparent;
+  color: #0419d4;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+  -webkit-transition: .3s ease-in-out;
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+}
+
+.btn:hover {
+  background-color: #0419d4;
+  color: white;
 }
 
 /* image as link */
