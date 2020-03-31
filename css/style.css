@@ -49,14 +49,13 @@ nav {
 
 .navie:hover {
   text-decoration: none;
-  background-color: #FFB800;
+  background-color: #0419d4;
   color: white;
 }
 
 .navie:focus {
   text-decoration: none;
-  color: #FFB800;
-  border-bottom: 1px solid #FFB800;
+  color: #0419d4;
 }
 
 /* home page case studies link */
@@ -74,7 +73,7 @@ nav {
   padding-bottom: 5em;
 }
 
-.cases a {
+.cases a, .case_studies1 {
   font-family: 'Helvetica Neue', sans-serif;
   text-decoration: none;
   font-style: normal;
@@ -250,7 +249,7 @@ h2 {
 
 h3 {
   font-size: 1.3em;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 h4 {
@@ -278,4 +277,22 @@ sup {
 
 .clear {
   clear: right;
+}
+
+/* case study  */
+.case_title {
+  padding-top: 2em;
+}
+
+.case_border {
+  padding: 1em 25em 3em 25em;
+}
+
+.detail {
+  max-width: 100%;
+}
+
+hr {
+  margin-top: 1.5em;
+  margin-bottom: 4em;
 }
