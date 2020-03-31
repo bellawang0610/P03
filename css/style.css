@@ -13,10 +13,8 @@ body {
   padding: 3em 6em 5.5em 6em;
 }
 
-hr {
-  border-top: 1px solid black;
-  margin: 1em 0em 1em 0em;
-}
+p::-moz-selection { background: #ff1900;}
+p::selection { background: #ff1900; }
 
 /* home page intro */
 
@@ -143,6 +141,8 @@ nav {
 
 .half_line {
   width: 400px;
+  border-top: 1px solid black;
+  margin: 1em 0em 1em 0em;
 }
 
 /* contact */
@@ -233,6 +233,8 @@ nav {
 }
 
 .text-link:hover {
+  text-decoration: none;
+  color: #FFB800;
   border-bottom: 1px solid #FFB800;
 }
 
