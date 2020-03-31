@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
@@ -279,13 +280,19 @@ sup {
   clear: right;
 }
 
+img {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
 /* case study  */
 .case_title {
   padding-top: 2em;
 }
 
 .case_border {
-  padding: 1em 25em 3em 25em;
+  background-color: white;
+  padding: 1em 17em 5em 17em;
 }
 
 .detail {
@@ -295,4 +302,21 @@ sup {
 hr {
   margin-top: 1.5em;
   margin-bottom: 4em;
+}
+
+.img_bg {
+  background-color: #e8e8e8;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: 6fr 6fr;
+  grid-row: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  .box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
 }
