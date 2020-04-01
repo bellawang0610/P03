@@ -315,14 +315,15 @@ hr {
 .container {
   display:grid;
   grid-template-columns: 6fr 6fr;
-  grid-row: auto auto;
+  grid-row: auto;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  .box{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-  }
+}
+
+.box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
 /* case study 2 */
@@ -434,7 +435,7 @@ hr {
 .footer_container {
   display: grid;
   grid-template-columns: 4fr 4fr 4fr;
-  grid-row: auto auto;
+  grid-row: auto;
   grid-column-gap: 5.5em;
   grid-row-gap: 1em;
 }
