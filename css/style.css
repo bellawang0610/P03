@@ -10,7 +10,7 @@ body {
 }
 
 .white_border {
-  padding: 3em 6em 5.5em 6em;
+  padding: 3em 6em 3em 6em;
 }
 
 p::-moz-selection { background: #ff1900;}
@@ -388,4 +388,27 @@ hr {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.cs_text {
+  font-size: 3em;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: -webkit-linear-gradient(-86deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+  }
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
