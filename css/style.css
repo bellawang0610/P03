@@ -412,3 +412,46 @@ hr {
     -webkit-filter: hue-rotate(-360deg);
   }
 }
+
+/* footer */
+
+.footer_border {
+  padding: 1em 17em 2em 17em;
+}
+
+.footer_title {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.03em;
+  -webkit-text-stroke-color: black;
+}
+
+.footer_title:hover {
+  color: white;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: black;
+  cursor: crosshair;
+}
+
+
+.footer_container {
+  display:grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  grid-row: auto auto;
+  grid-column-gap: 5.5em;
+  grid-row-gap: 2em;
+}
+
+.footer_top {
+  border-top: 1px solid black;
+  padding-top: 1.5em;
+}
+
+.footer_top a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
