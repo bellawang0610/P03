@@ -7,6 +7,8 @@ body {
   background-color: #FBFBFB;
   color: black;
   font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .white_border {
@@ -416,7 +418,7 @@ hr {
 /* footer */
 
 .footer_border {
-  padding: 1em 17em 2em 17em;
+  padding: 1em 17em 3em 17em;
 }
 
 .footer_title {
@@ -429,20 +431,12 @@ hr {
   -webkit-text-stroke-color: black;
 }
 
-.footer_title:hover {
-  color: white;
-  -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: black;
-  cursor: crosshair;
-}
-
-
 .footer_container {
-  display:grid;
+  display: grid;
   grid-template-columns: 4fr 4fr 4fr;
   grid-row: auto auto;
   grid-column-gap: 5.5em;
-  grid-row-gap: 2em;
+  grid-row-gap: 1em;
 }
 
 .footer_top {
@@ -454,4 +448,26 @@ hr {
   text-decoration: none;
   color: black;
   font-size: 1.1em;
+  color: black;
+  cursor: pointer;
+  padding: 5px 5px 5px 0px;
+}
+
+.footer_top a:hover {
+  background-color: #0419d4;
+  color: white;
+}
+
+.footer_bt a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+  color: black;
+  cursor: pointer;
+  padding: 5px 5px 5px 0px;
+}
+
+.footer_bt a:hover {
+  background-color: #0419d4;
+  color: white;
 }

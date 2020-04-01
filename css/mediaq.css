@@ -29,6 +29,16 @@
   .container {
     grid-template-columns: 1fr;
   }
+  .footer_border {
+    padding: 3em 6em 5.5em 6em;
+  }
+  .footer_container {
+    grid-template-columns: 1fr;
+  }
+  .footer_bt {
+    border-top: 1px solid black;
+    padding-top: 1.5em;
+  }
 }
 
 @media only screen and (max-width:820px) {
@@ -42,6 +52,9 @@
     padding: 1em 1.2em 3em 1.2em;
   }
   .case_border {
+    padding: 1em 1.2em 3em 1.2em;
+  }
+  .footer_border {
     padding: 1em 1.2em 3em 1.2em;
   }
   nav {
